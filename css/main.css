@@ -124,6 +124,7 @@ H3 {
 
 .btn--last {
 	width: 340px;
+	border-style: none;
 }
 
 input {
@@ -278,7 +279,6 @@ input {
 	}
 
 	.learn_inner {
-		align-items: flex-end;
 		margin-top: 40px;
 	}
 
@@ -287,15 +287,15 @@ input {
   }
 
 	.mail {
-		padding: 30px 0;
+		padding: 35px 0;
   }
 
 	input {
-		width: 300px;
+		width: 90%;
 	}
 
 	.btn--last {
-		width: 300px;
+		width: 90%;
   }
 
   .footer {
