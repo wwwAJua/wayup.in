@@ -8,6 +8,7 @@
 	<link
 		href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans&family=Ubuntu:wght@400;700&display=swap"
 		rel="stylesheet">
+	<link rel="stylesheet" href="css/animate.css">
 	<link rel="stylesheet" href="css/main.css">
 	<title>Погружение в адаптивность</title>
 </head>
@@ -16,11 +17,11 @@
 	<!-- header -->
 	<header id="header" class="header">
 		<div class="container">
-			<div class="header_logo">
+			<div class="header_logo animated fadeInDown">
 				<img src="img/logo.png" alt="logo">
 			</div>
 			<div class="header_inner">
-				<div class="header_content">
+				<div class="header_content animated fadeInLeft">
 					<H1>С помощью верстки
 						я создам ту жизнь, о которой
 						<br><span class="header_span">мечтаю!</span>
@@ -28,11 +29,11 @@
 					<p class="header_text">Мои стремления + настойчивость позволят мне достичь чего угодно. Я не верю в это.
 						Я знаю это на 100%. Меня не остановить!
 					</p>
-					<a class="btn" href="https://wayup.in/cabinet/course10/unit1/lesson4" title="Двигаться"
-						target="blunk">Двигаться к
+					<a id="btn" class="btn" href="#" title="Двигаться" target="blunk">Двигаться к
 						мечте!</a>
 				</div>
-				<img class="header_img" src="img/129983-ORUAFL-508.png" alt="Image">
+				<img class="header_img animated fadeInRight" src="img/129983-ORUAFL-508.png" alt="Image">
+
 			</div>
 		</div>
 	</header>
@@ -41,17 +42,17 @@
 		<div class="container">
 			<H2>Что меня ждет впереди</H2>
 			<div class="learn_inner">
-				<div class="lear_itm">
+				<div class="lear_itm lear_itm-left animated">
 					<img src="img/icons8-time-machine-96.png" alt="time-machine">
 					<H3 class="learn_title">Свободное время</H3>
 					<p class="learn_text">Мне нужно свободное время на семью и самое настоящее</p>
 				</div>
-				<div class="lear_itm">
+				<div class="lear_itm lear_itm-center animated">
 					<img src="img/icons8-beach-96.png" alt="beach">
 					<H3 class="learn_title">Яркие путешествия</H3>
 					<p class="learn_text">Работать откуда угодно - что может быть лучше?</p>
 				</div>
-				<div class="lear_itm">
+				<div class="lear_itm lear_itm-right animated">
 					<img src="img/icons8-launch-96.png" alt="launch">
 					<H3 class="learn_title">Создание ценности</H3>
 					<p class="learn_text">Нет ничего сильнее, чем жить не просто так, создавая ценность</p>
@@ -64,11 +65,12 @@
 		<div class="container">
 			<H2>Форма заказа билета в будущее</H2>
 			<form class="form" action="#">
-				<input type="text" name="name" placeholder="имя" required>
-				<input type="email" name="e-mail" placeholder="e-mail" required>
-				<input type="tel" name="phone" placeholder="Телефон" required>
-				<input type="text" name="text" placeholder="Куда я полечу в ближайшее время?" required>
-				<button class="btn btn--last" type="submit">Двигаться к мечте!</button>
+				<input class="input_1 animated " type="text" name="name" placeholder="имя" required>
+				<input class="input_2 animated" type="email" name="e-mail" placeholder="e-mail" required>
+				<input class="input_3 animated" type="tel" name="phone" placeholder="Телефон" required>
+				<input class="input_4 animated" type="text" name="text" placeholder="Куда я полечу в ближайшее время?"
+					required>
+				<button class="btn btn--last animated" type="submit">Двигаться к мечте!</button>
 			</form>
 		</div>
 	</section>
@@ -79,6 +81,12 @@
 			<p>
 		</div>
 	</footer>
+	<!-- script -->
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/main.js"></script>
+	<!-- <script>
+		alert('Привет мир!');
+	</script> -->
 </body>
 
 </html>

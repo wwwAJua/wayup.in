@@ -3,6 +3,7 @@ body {
 	font-size: 15px;
 	padding: 0;
 	margin: 0;
+	overflow-x: hidden;
 }
 
 div, p, input, button, form, span, a, ul, li {
@@ -35,7 +36,7 @@ H3 {
 .header {
 	background-image: linear-gradient(-45deg, #378fd9 0%,#4ebefe 100%);
 	color: #fff;
-	padding: 60px 0;
+	padding-top: 60px;
 }
 
 .header_inner {
@@ -62,7 +63,7 @@ H3 {
 
 .header_img {
 	display: block;
-	width: 100%;
+	width: 50%;
 	height: auto;
 }
 
@@ -141,6 +142,14 @@ input {
 	padding: 60px 0;
 }
 
+.animated {
+	opacity: 0;
+}
+
+.center {
+	text-align: center;
+}
+
 /*responsive*/
 
 @media screen and (max-width: 1200px) {
@@ -193,8 +202,34 @@ input {
 }
 
 @media screen and (max-width: 768px) {
+	
+	H1 {
+		font-size: 24px;
+	}
+	
 	.container {
 		width: 540px;
+	}
+
+	.header {
+		padding: 30px 0;
+  }
+
+	.header_content {
+		margin: auto 0;
+		padding:0;
+	}
+	
+	.header_span {
+		font-size: 48px;
+		line-height: 1;
+	}
+	
+	.header_text {
+		font-family: 'Open Sans', sans-serif;
+		font-size: 16px;
+		color: #FFF;
+		margin-bottom: 50px;
 	}
 
 	.learn_inner {
@@ -204,9 +239,56 @@ input {
 }
 
 @media screen and (max-width: 576px) {
+	
+	H1 {
+		font-size: 18px;
+  }
+	
 	.container {
 		width: 90%;
 	}
+
+	.header {
+		padding: 5px 0;
+  }
+
+	.header_span {
+		font-size: 50px;
+		line-height: 35px;
+  }
+
+	.header_img {
+		display: block;
+		width: 95%;
+		height: auto;
+  }
+
+  .header_text {
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+
+	.btn {
+		padding: 10px 30px;
+		border-radius: 50px;
+	}
+
+	.learn {
+		padding: 20px 0;
+	}
+
+	.learn_inner {
+		align-items: flex-end;
+		margin-top: 40px;
+	}
+
+	.lear_itm {
+		margin-bottom: 20px;
+  }
+
+	.mail {
+		padding: 30px 0;
+  }
 
 	input {
 		width: 300px;
@@ -215,4 +297,8 @@ input {
 	.btn--last {
 		width: 300px;
   }
+
+  .footer {
+	padding: 10px 0;
+}
 }
