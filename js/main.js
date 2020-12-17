@@ -26,7 +26,7 @@ $(function () {
 			var imagePos = $(this).offset().top;
 
 			var topOfWindow = $(window).scrollTop();
-			if (imagePos < topOfWindow + 450) {
+			if (imagePos < topOfWindow + 550) {
 				$(this).addClass("fadeInLeft");
 			}
 		});
@@ -46,7 +46,7 @@ $(function () {
 			var imagePos = $(this).offset().top;
 
 			var topOfWindow = $(window).scrollTop();
-			if (imagePos < topOfWindow + 450) {
+			if (imagePos < topOfWindow + 550) {
 				$(this).addClass("fadeInRight");
 			}
 		});
@@ -61,7 +61,7 @@ $(function () {
 			var imagePos = $(this).offset().top;
 
 			var topOfWindow = $(window).scrollTop();
-			if (imagePos < topOfWindow + 450) {
+			if (imagePos < topOfWindow + 850) {
 				$(this).addClass("fadeInLeft");
 			}
 		});
@@ -71,7 +71,7 @@ $(function () {
 			var imagePos = $(this).offset().top;
 
 			var topOfWindow = $(window).scrollTop();
-			if (imagePos < topOfWindow + 450) {
+			if (imagePos < topOfWindow + 750) {
 				$(this).addClass("fadeInRight");
 			}
 		});
@@ -81,7 +81,7 @@ $(function () {
 			var imagePos = $(this).offset().top;
 
 			var topOfWindow = $(window).scrollTop();
-			if (imagePos < topOfWindow + 450) {
+			if (imagePos < topOfWindow + 750) {
 				$(this).addClass("fadeInLeft");
 			}
 		});
@@ -91,7 +91,7 @@ $(function () {
 			var imagePos = $(this).offset().top;
 
 			var topOfWindow = $(window).scrollTop();
-			if (imagePos < topOfWindow + 450) {
+			if (imagePos < topOfWindow + 750) {
 				$(this).addClass("fadeInRight");
 			}
 		});
@@ -101,7 +101,7 @@ $(function () {
 			var imagePos = $(this).offset().top;
 
 			var topOfWindow = $(window).scrollTop();
-			if (imagePos < topOfWindow + 450) {
+			if (imagePos < topOfWindow + 750) {
 				$(this).addClass("jackInTheBox");
 			}
 		});

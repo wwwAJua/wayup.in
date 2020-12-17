@@ -249,12 +249,12 @@ input {
 	}
 
 	.header {
-		padding: 5px 0;
+		padding: 30px 0;
   }
 
 	.header_span {
 		font-size: 50px;
-		line-height: 45px;
+		line-height: 2;
   }
 
 	.header_img {
@@ -264,12 +264,12 @@ input {
   }
 
   .header_text {
-	margin-bottom: 20px;
+	margin-bottom: 50px;
 	margin-top: 10px;
 }
 
 	.btn {
-		padding: 10px 30px;
+		padding: 15px 30px;
 		border-radius: 50px;
 	}
 
@@ -288,6 +288,10 @@ input {
 
 	.mail {
 		padding: 35px 0;
+  }
+
+  .form {
+		padding: 75px 0;
   }
 
 	input {
