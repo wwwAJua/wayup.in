@@ -5,6 +5,7 @@ body {
 	padding: 0;
 	margin: 0;
 	overflow-x: hidden;
+	overflow-x: initial;
 }
 
 div, p, input, button, form, span, a, ul, li {
@@ -85,7 +86,7 @@ H3 {
 /*learn*/
 
 .learn {
-	padding: 100px 0;
+	padding: 50px 0;
 	text-align: center;
 }
 
@@ -109,7 +110,7 @@ H3 {
 /*mail*/
 
 .mail {
-	padding: 100px 0;
+	padding: 50px 0;
 	text-align: center;
 }
 
@@ -168,8 +169,7 @@ input {
 	}
 
 	.header_logo {
-		justify-content: center;
-		display: flex;
+		align-items: center;
 	}
 
 	.header_inner {
@@ -259,7 +259,7 @@ input {
 
 	.header_img {
 		display: block;
-		width: 95%;
+		width: 90%;
 		height: auto;
   }
 
@@ -291,7 +291,7 @@ input {
   }
 
   .form {
-		padding: 75px 0;
+		padding: 75px 0 30px;
   }
 
 	input {

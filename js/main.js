@@ -8,8 +8,8 @@ btn.onclick = function (e) {
 	e.preventDefault();
 	var img = document.querySelector('.header_img');
 	img.classList.add('rotateIn');
-	document.querySelector('.header_content').classList.add('center');
-	document.querySelector('.header_logo').classList.add('center');
+	// document.querySelector('.header_content').classList.add('center');
+	// document.querySelector('.header_logo').classList.add('center');
 
 	// var text = document.querySelector('header_content');
 	// text.classList.add('center');
